@@ -17,7 +17,7 @@ def gettingData():
     name = []
     payload = {}
     headers = {
-        'Authorization': 'Bearer 38916c71-aa83-4f6a-9ad6-c3c8c7012097',
+        'Authorization': 'config.API',
         'Cookie': '__cf_bm=94XrtyyRrKkCCQKrx3US_HX2mIwdUZWjyVyAfRLY_SQ-1668382598-0-AXE4gj/D7eJkmP4HnS46YB5xv3N1faeginQYWoe2TBbLSjgmDyXIE9Nw2Pt8xw5bdZ/1M9baT5ApQ/a/9878IRw=; __cfruid=c450454ab4ec480fae9bf3af2ff265d89e5f395d-1668382598'
     }
 
