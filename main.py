@@ -23,7 +23,7 @@ def gettingData():
 
     steamID = input("Enter the desired users steam 64 ID E.G 76561198259409483")
     convertedID = str(steamID)
-    apiCallSteamIDS = str("https://api.steampowered.com/ISteamUser/GetFriendList/v0001/?key=86E1078E76C768C46B2B204BEDB3B009&steamid="+ convertedID +"&relationship=friend")
+    apiCallSteamIDS = str("https://api.steampowered.com/ISteamUser/GetFriendList/v0001/?key=APIKEY&steamid="+ convertedID +"&relationship=friend")
     response = requests.get(apiCallSteamIDS)
 
     responseJSON = response.json()
